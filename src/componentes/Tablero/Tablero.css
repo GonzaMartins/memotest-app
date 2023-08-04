@@ -1,0 +1,23 @@
+.tablero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 6vh;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 18vh;
+}
+
+@media (max-width: 600px) {
+    .tablero {
+        grid-gap: 0vh;
+        margin-top: 30%;
+        margin-left: 5%;
+    }
+  }
+
+
+@media (max-width: 450px) {
+    .tablero {
+        margin-top: 60%;
+    }
+  }

@@ -1,0 +1,35 @@
+.contenedorAlert{
+    background-color: #b8ff46;;
+    width: 50%;
+    height: 50vh;
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    align-self: center;
+    font-size: 50px;
+    margin-top: 4vh;
+}
+
+.boton {
+    width: 40%;
+    height: 5vh;
+    align-self: center;
+    margin-top: 6vh;
+    background: #050c18;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.gif{
+    align-self: center;
+    margin-top: 3vh;
+}
