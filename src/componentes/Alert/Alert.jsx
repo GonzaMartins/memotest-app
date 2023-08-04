@@ -10,7 +10,7 @@ export default function Alert({ handleOnClick }) {
                 Volver a jugar
             </button>
             <div className='gif'>
-                <iframe src="https://giphy.com/embed/nhJWU3aiNb7zM65jwc"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/nhJWU3aiNb7zM65jwc" title="iframe"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
             </div>
         </div>
     )
